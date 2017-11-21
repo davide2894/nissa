@@ -13,8 +13,11 @@ Please click on the link for information about it from the official source.
 * [Mana](https://github.com/andrewgioia/Mana) font  
 * [Gimp](https://www.gimp.org): image editing
 
+## Original 
+![Oath of Nissa](../images/oath-of-nissa.jpg?raw=true)
+
 ## Result
-![MTG card in HTML and CSS](https://ibb.co/htzLyR "MTG card in HTML and CSS")
+![MTG card in HTML and CSS](../images/mtg-card-html-css.png?raw=true)
 
 # Licese 
 All mana, tap, images and card symbols are copyright and owned by [Wizards of the coast                             (http://company.wizards.com).
