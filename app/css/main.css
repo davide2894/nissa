@@ -160,7 +160,9 @@ body {
   border-top-right-radius: 6px;
   border-bottom-left-radius: 8%;
   border-bottom-right-radius: 8%;
-  background-image: url(/images/green-background.jpg);
+  background-image: url(../images/green-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   z-index: 0; }
 
@@ -168,15 +170,16 @@ body {
   z-index: 1;
   position: relative;
   height: 108%;
-  max-width: 98%;
+  max-width: 97%;
   left: 1%;
   top: 0.5%;
+  left: 1.2%;
   display: flex;
   flex-direction: column; }
 
 .frame-header,
 .frame-type-line {
-  background: #c9d8d1;
+  background: linear-gradient(0deg, rgba(201, 216, 201, 0.3), rgba(201, 216, 209, 0.3)), url(../images/tile-bg-1.jpg);
   display: flex;
   margin-top: 10px;
   margin-left: 5px;
@@ -220,10 +223,11 @@ body {
 .frame-text-box {
   margin: 0 10px;
   background: #d3ded6;
+  background-image: url(../images/tile-bg-2.jpg);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 30px 6px;
+  padding: 50px 6px;
   box-sizing: border-box;
   font-size: 1.2em; }
 
@@ -265,12 +269,13 @@ p {
 
 .fbi-center {
   border-radius: 60%;
-  flex-basis: 40px;
-  height: 20px;
+  flex-basis: 41px;
+  height: 21px;
   position: relative;
   bottom: 11px;
   z-index: 2;
   background: lightgray;
+  background-image: url(../images/holofoil-texture-2.jpg);
   box-shadow: 0 0 0 4px #171314; }
 
 .inner-margins {
@@ -293,11 +298,11 @@ p {
 .frame-header,
 .frame-art,
 .frame-type-line {
-  box-shadow: 0 0 0 2px #171314, 0 0 0 5px #31794c, -3px 3px 2px 5px #171314;
+  box-shadow: 0 0 0 2px #171314, 0 0 0 5px #26714A, -3px 3px 2px 5px #171314;
   margin-bottom: 7px; }
 
 .frame-text-box {
-  box-shadow: 0 0 0 5px #31794c, -3px 3px 2px 5px #171314; }
+  box-shadow: 0 0 0 5px #26714A, -3px 3px 2px 5px #171314; }
 
 /*
     ----------------------
