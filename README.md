@@ -1,6 +1,6 @@
 # Magic: The Gathering card replica in HMTL and CSS 
 
-# License 
+## License 
 All mana, tap, images and card symbols are copyright and owned by [Wizards of the coast                             (http://company.wizards.com).
 
 ## Goal
