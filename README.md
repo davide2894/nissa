@@ -17,7 +17,7 @@ Please click on the link for information about it from the official source.
 * [Gimp](https://www.gimp.org): image editing
 
 ## Original 
-![Oath of Nissa](app/images/oath-of-nissa.jpg?raw=true);
+![Oath of Nissa](app/images/mtg-original.jpeg?raw=true);
 
 ## Result
 ![MTG card in HTML and CSS](app/images/mtg-replica.png?raw=true);
