@@ -138,9 +138,13 @@ table {
   font-style: normal; }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
-  font-family: "MPlantin"; }
+  font-family: "MPlantin"; 
+}
 
 .card-container {
   max-width: 500px;
@@ -149,10 +153,13 @@ body {
   background: #171314;
   margin-top: 56px;
   border-radius: 25px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-shadow: -8px 9px 16px -3px gray;
   box-shadow: -8px 9px 16px -3px gray; }
 
 .card-background {
+  -ms-flex-preferred-size: 80%;
   flex-basis: 80%;
   height: 595px;
   margin: 20px 20px 0 20px;
@@ -163,6 +170,8 @@ body {
   background-image: url(../images/green-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   z-index: 0; }
 
@@ -174,18 +183,28 @@ body {
   left: 1%;
   top: 0.5%;
   left: 1.2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column; }
 
 .frame-header,
 .frame-type-line {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(201, 216, 201, 0.3)), to(rgba(201, 216, 209, 0.3))), url(../images/tile-bg-1.jpg);
   background: linear-gradient(0deg, rgba(201, 216, 201, 0.3), rgba(201, 216, 209, 0.3)), url(../images/tile-bg-1.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 10px;
   margin-left: 5px;
   margin-right: 5px;
   padding: 8px 0;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   border-radius: 18px/40px; }
 
@@ -193,6 +212,7 @@ body {
 .type {
   font-size: 1.3em;
   margin-left: 10px;
+  -ms-flex-item-align: baseline;
   align-self: baseline;
   font-weight: 600; }
 
@@ -200,10 +220,13 @@ body {
   font-size: 1.4em;
   background: #ADD3AC;
   border-radius: 50%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-shadow: -0.05em 0.12em 0px 0 black;
   box-shadow: -0.05em 0.12em 0px 0 black;
   margin-right: 5px;
   height: 20px;
+  -ms-flex-item-align: center;
   align-self: center; }
 
 .frame-art {
@@ -215,6 +238,7 @@ body {
   width: 6%;
   overflow: hidden;
   margin-right: 10px;
+  -ms-flex-item-align: center;
   align-self: center; }
 
 .frame-type-line {
@@ -224,10 +248,17 @@ body {
   margin: 0 10px;
   background: #d3ded6;
   background-image: url(../images/tile-bg-2.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   padding: 50px 6px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 1.2em; }
 
@@ -243,7 +274,11 @@ p {
 
 .frame-bottom-info {
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 5px 15px 0 15px; }
 
@@ -252,12 +287,16 @@ p {
   max-width: 10px; }
 
 .fbi-left {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1; }
 
 .fbi-left p:first-of-type {
   margin-bottom: 1px; }
 
 .fbi-right {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
   text-align: right; }
 
@@ -269,6 +308,7 @@ p {
 
 .fbi-center {
   border-radius: 60%;
+  -ms-flex-preferred-size: 41px;
   flex-basis: 41px;
   height: 21px;
   position: relative;
@@ -276,6 +316,7 @@ p {
   z-index: 2;
   background: lightgray;
   background-image: url(../images/holofoil-texture-2.jpg);
+  -webkit-box-shadow: 0 0 0 4px #171314;
   box-shadow: 0 0 0 4px #171314; }
 
 .inner-margins {
@@ -298,10 +339,12 @@ p {
 .frame-header,
 .frame-art,
 .frame-type-line {
+  -webkit-box-shadow: 0 0 0 2px #171314, 0 0 0 5px #26714A, -3px 3px 2px 5px #171314;
   box-shadow: 0 0 0 2px #171314, 0 0 0 5px #26714A, -3px 3px 2px 5px #171314;
   margin-bottom: 7px; }
 
 .frame-text-box {
+  -webkit-box-shadow: 0 0 0 5px #26714A, -3px 3px 2px 5px #171314;
   box-shadow: 0 0 0 5px #26714A, -3px 3px 2px 5px #171314; }
 
 /*
